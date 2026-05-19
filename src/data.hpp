@@ -14,8 +14,8 @@ struct Node
     unsigned int freq;
     Encode format; // the encoding format
     bool isChar;
-    Node *dx;
     Node *sx;
+    Node *dx;
 
     // Min-Heap frequency based.
     bool operator<(const Node &others) const
